@@ -6,16 +6,16 @@ pipeline{
 }
 
         stages{
-           stage('dev-branch'){
+           stage('stage-1'){
              steps{
-                   echo "hello this is dev branch"
+                   sh"mkdir prachi-dev"
 
 }
 
 }
            stage('stage-2'){
              steps{
-                   echo"hello all"
+                   echo"hello all this is dev file"
 
 }
 }

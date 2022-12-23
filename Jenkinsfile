@@ -6,9 +6,9 @@ pipeline{
 }
 
         stages{
-           stage('stage-1'){
+           stage('dev-branch'){
              steps{
-                   sh"mkdir prachi"
+                   echo "hello this is dev branch"
 
 }
 
